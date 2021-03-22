@@ -1,0 +1,40 @@
+
+/* Style the element that is used to open and close the accordion class */
+
+p.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}

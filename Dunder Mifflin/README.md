@@ -4,6 +4,6 @@ _Coming Christmas 2002!_
 
 ---
 
-A faithful recreation of dundermifflin.com, breifly mentioned in the episode, *"Dunder Mifflin Infinity"* ([IMDB](http://www.imdb.com/title/tt1031459/))
+Season 4 Episode 2
 
 ![img](https://i.imgur.com/ZsX9Hre.jpg)

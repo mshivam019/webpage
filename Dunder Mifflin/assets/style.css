@@ -1,0 +1,109 @@
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	position: relative;
+	min-height: 100vh;
+	outline: 1px solid green;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+	text-align: center;
+	position: relative;
+	padding: 1em 2em 100px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 2em;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+h2 {
+	line-height: 1.2em;
+	font-size: 2em;
+	color: green;
+}
+
+h2 span {
+	color: red;
+}
+
+h2 strong {
+	font-weight: bold;
+	color: black;
+}
+
+.logo {
+	margin-bottom: 3em;
+}
+
+footer {
+	display: block;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+	text-align: center;
+	padding: 0 0 2em;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #999;
+}
+
+footer > span {
+	display: block;
+	margin-top: 1em;
+}
+
+footer a {
+	color: #0067AA;
+}
+
+@media all and (min-width: 375px){
+	.logo {
+		max-width: 250px;
+	}
+}
+
+@media all and (min-width: 768px){
+	h1, h2 {
+		font-size: 2.5em;
+	}
+	footer {
+		left: auto;
+		right: 0;
+		margin-left: 0;
+		padding-right: 1em;
+		width: auto;
+		text-align: right;
+	}
+	footer > span {
+		display: inline-block;
+	}
+}
+
+@media all and (min-width: 960px){
+	h1, h2 {
+		font-size: 3em;
+	}
+}
+
+@media all and (min-height: 700px) and (min-width: 768px){
+	footer {
+		position: fixed;
+		padding-bottom: 1em;
+	}
+}
